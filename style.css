@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap');
+
+body{
+    background: teal;
+}
+.main {
+  display: flex;
+  background-color: #19244d;
+  justify-content: space-evenly;
+  margin: 200px auto 0px auto;
+  width: 500px;
+  border: 2px solid white;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+.Home h1,
+.Guest h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#guest-screen,
+#home-screen {
+  color: red;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Turret Road', cursive;
+  background: black;
+  font-weight: bolder;
+}
+button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid lavender;
+  font-family: 'Turret Road', cursive;
+  color: lavender;
+  cursor: pointer;
+}
